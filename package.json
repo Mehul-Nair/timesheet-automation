@@ -6,7 +6,8 @@
   "scripts": {
     "server": "node server/index.js",
     "lint": "eslint .",
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "build": "tsc"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -21,6 +22,7 @@
     "@types/node-cron": "^3.0.11",
     "@types/uuid": "^9.0.8",
     "eslint": "^9.9.1",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "typescript": "^5.3.3"
   }
 }
